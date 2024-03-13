@@ -18,7 +18,8 @@ public class GreenTreeApp {
                     ecosystem.addTree(tree);
                     break;
                 case 2:
-                    displayEcosystem(ecosystem);
+                    System.out.println(ecosystem.displayEcosystem());
+                    //displayEcosystem(ecosystem);
                     break;
                 case 3:
                     System.out.println("Exiting the program.");
@@ -58,7 +59,7 @@ public class GreenTreeApp {
 
         return tree;
     }
-
+/*
     public static void displayEcosystem(Ecosystem ecosystem) {
         List<Tree> trees = ecosystem.getTrees();
 
@@ -73,5 +74,5 @@ public class GreenTreeApp {
 
             System.out.println("------------------");
         }
-    }
+    }*/
 }
